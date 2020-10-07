@@ -1,0 +1,83 @@
+body {
+    background: rgb(102, 95, 86);
+}
+
+.row{
+
+    display: flex;
+    justify-content: initial;
+
+}
+
+
+h2 {
+
+color: red;
+font-size: 20px;
+color: black;
+animation-name: h2;
+animation-duration: 10s;
+animation-iteration-count:3;
+animation-delay:2s;
+animation-direction:alternate;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-play-state: running;
+}
+
+@keyframes h2{
+    0%  {color:rgb(0, 0, 0);  }
+    25%  {color:red; }
+    50%  {color:blue; }
+    75%  {color:white; }
+    100% {color: black; }
+
+
+
+}
+h1{
+    text-align:center;
+    animation-name:header;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes header{
+    0%  {color:rgb(0, 0, 0); left:90px; }
+    15%  {color:rgb(192, 127, 127); left:200px; }
+    30%  {color:rgb(15, 240, 34); left:250px; }
+    45%  {color:rgb(18, 67, 230); left:300px; }
+    60%  {color:rgb(56, 4, 39); }
+    75%  {color:rgb(236, 203, 18);  }
+    90%  {color:rgb(150, 210, 218);  }
+    100%  {color:rgb(2, 1, 1);  }
+}
+
+
+
+
+/* .box{
+    background:white;
+    width:200px;
+    height: 200px;
+    position:relative;
+    animation-name:mine;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-delay:2s;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mine{
+    0%  {background-color:white; left:0px; top:0px; border-radius:0 0 0 0;}
+    25%  {background-color:red; left:300px; top: 0px; border-radius:50% 0 0 0;}
+    50%  {background-color:blue; left:300px; top:300px; border-radius:50% 50% 0 0;}
+    75%  {background-color:white; left:0px; top:300px; border-radius:50% 50% 50% 0;}
+    100% {background-color: black; left:0px; top:0px; border-radius: 50% 50% 50% 50%;}
+
+} */
+
+
