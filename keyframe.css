@@ -2,23 +2,22 @@ body {
     background: rgb(102, 95, 86);
 }
 
-.row{
+.col-6{
+    background: rgb(122, 111, 96);
 
-    display: flex;
-    justify-content: initial;
 
 }
-
 
 h2 {
 
 color: red;
 font-size: 20px;
 color: black;
+font-family: fantasy;
 animation-name: h2;
 animation-duration: 10s;
 animation-iteration-count:3;
-animation-delay:2s;
+animation-delay:10s;
 animation-direction:alternate;
 animation-timing-function: ease-in-out;
 animation-fill-mode: forwards;
@@ -36,22 +35,23 @@ animation-play-state: running;
 
 }
 h1{
+    position:relative;
     text-align:center;
     animation-name:header;
     animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
 
 @keyframes header{
-    0%  {color:rgb(0, 0, 0); left:90px; }
-    15%  {color:rgb(192, 127, 127); left:200px; }
-    30%  {color:rgb(15, 240, 34); left:250px; }
-    45%  {color:rgb(18, 67, 230); left:300px; }
-    60%  {color:rgb(56, 4, 39); }
-    75%  {color:rgb(236, 203, 18);  }
-    90%  {color:rgb(150, 210, 218);  }
-    100%  {color:rgb(2, 1, 1);  }
+    0%  {color:rgb(0, 0, 0); left:0px; top: 0; }
+    15%  {color:rgb(192, 127, 127); left:200px; top: 0; }
+    30%  {color:rgb(15, 240, 34); left:250px; top: 0; }
+    45%  {color:rgb(18, 67, 230); left:300px; top: 0; }
+    60%  {color:rgb(56, 4, 39); left:-100px; top: 0; }
+    75%  {color:rgb(236, 203, 18); left:-200px; top: 0; }
+    90%  {color:rgb(150, 210, 218); left:-300px; top: 0;  }
+    100%  {color:rgb(2, 1, 1); left:0px; top: 0;  }
 }
 
 
