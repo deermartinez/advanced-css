@@ -41,3 +41,8 @@
     background-color: indigo;
     transform:scale(2,3);
 }
+.skew:hover{
+    color:black;
+    background-color:gray;
+    transform: skewX(5deg) skewY(5deg);
+}
