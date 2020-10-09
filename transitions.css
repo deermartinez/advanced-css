@@ -2,8 +2,21 @@ body{
     background:red;
 }
 
+.head{
+    transition-property: color;
+    transition-duration: 2;
+    height: 350px;
+    width: 200px;
+    background-color: orange;
+    font-family: monospace;
+}
 
-.box{
+.head:hover{
+    background: gray;
+    color: white;
+}
+
+/* .box{
     background:gray;
     width:300px;
     height:300px;
@@ -14,7 +27,4 @@ body{
 
 .box:hover{
     background:blue;
-}
-
-
-
+} *.head{}
