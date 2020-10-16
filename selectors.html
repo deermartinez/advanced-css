@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+    <title>Advanced css</title>
+    <style>
+        h1{
+            color:purple;
+        }
+
+        .section2 h1{
+            color:green;
+        }
+
+        .section3 p{
+            color:salmon;
+            font-size:20px;
+        }
+
+        .section2 ul li{
+            color:darkblue;
+            list-style-type: none;
+            transition-property: color, transform;
+            transition-duration: 4s;
+        }
+        
+        .section2 ul li:hover{
+            color:pink;
+            transform:translateX(40px);
+        }
+        
+        .section1 h1{
+            color:gold;
+        }
+
+        .section1 p{
+            color:orange;
+            font-size:30px;
+            transition-property:transform;
+            transition-duration:3s;
+        }
+
+        .section1 p:hover{
+            transform:translateX(-30px);
+        }
+
+        .section2 ul .Spanish{
+            text-size:30px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="section1">
+        <h1> Hello World!</h1>
+        <p>This is the English Language</p>
+    </div>
+    
+    <h1>Hola Mundo!</h1>
+    <p>This is the Spanish Language.</p>
+    
+    <div class="section2">
+        <h1>Bonjour le Monde!</h1>
+        <p>This is the French Language.</p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class=> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    
+    <div class="section3">
+        <h1>مرحبا بالعالم</h1>
+        <p>This is the Arabic Language. </p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class="spanish"> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    
+</body>
+
+
+
